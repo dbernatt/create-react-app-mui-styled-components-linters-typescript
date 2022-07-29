@@ -1,0 +1,59 @@
+{
+	"name": "create-react-app-mui-styled-components-linters-typescript",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@mui/lab": "^5.0.0-alpha.92",
+		"@mui/material": "^5.9.2",
+		"@mui/styled-engine-sc": "^5.8.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-scripts": "5.0.1",
+		"styled-components": "^5.3.5"
+	},
+	"devDependencies": {
+		"@craco/craco": "^6.4.5",
+		"@types/node": "^16.11.46",
+		"@types/react": "^18.0.15",
+		"@types/react-dom": "^18.0.6",
+		"@types/styled-components": "^5.1.25",
+		"craco-alias": "^3.0.1",
+		"typescript": "^4.7.4",
+		"@typescript-eslint/eslint-plugin": "^5.31.0",
+		"@typescript-eslint/parser": "^5.31.0",
+		"eslint": "^8.20.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-import-resolver-typescript": "^3.3.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.30.1",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"husky": "^8.0.1",
+		"prettier": "^2.7.1"
+	},
+	"scripts": {
+		"start": "craco start",
+		"build": "craco build",
+		"test": "craco test",
+		"eject": "react-scripts eject",
+		"lint": "npx eslint --ext .ts --ext .tsx src"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
